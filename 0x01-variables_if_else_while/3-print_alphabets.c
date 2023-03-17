@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	int l , u;
+	int l , u
+		;
 	for (l = 97; l <= 122; l++)
 	{
 		putchar(l);
@@ -17,6 +18,6 @@ int main(void)
 	{
 		putchar(u);
 	}
-putchar('\n');
-return (0);
+		putchar('\n');
+	return (0);
 }
