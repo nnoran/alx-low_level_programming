@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main -  _putchar
- * Description:  prints _putchar
+ * main -  prints _putchar
+ * task 0
  * Return: Always 0 (Success)
  */
 int main(void)

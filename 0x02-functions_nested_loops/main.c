@@ -1,7 +1,12 @@
-#include <stdio.h>
-int _putchar(char)
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-        int c;
-        putchar('c');
-        return(0);
+	print_alphabet();
+	return (0);
 }
