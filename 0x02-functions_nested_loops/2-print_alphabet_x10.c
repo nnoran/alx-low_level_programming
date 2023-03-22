@@ -1,10 +1,17 @@
 #include "main.h"
 /**
-* main - prints lower case alphabet
+* print_alphabet - lower case alphabet
 *Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet_x10();
-	return (0);
+	char letter;
+	int i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+	}
+	_putchar('\n');
 }
