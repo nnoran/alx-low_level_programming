@@ -5,19 +5,15 @@
  *@int: number whose abs is computed
  * Return: 0 Always (success)
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n, a;
-
-	a = n * -1
-
 	if (n >= 0)
 	{
 		_putchar('n');
 	}
 	else if (n < 0)
 	{
-		_putchar('a');
+		_putchar('(n * (-1))');
 	}
 	return (0);
 }
