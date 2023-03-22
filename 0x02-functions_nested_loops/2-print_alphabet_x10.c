@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet - lower case alphabet
+*print_alphabet_x10 - prints lower case alphabet
 * task 2
 *Return: Always 0 (Success)
 */
