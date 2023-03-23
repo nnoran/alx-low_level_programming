@@ -19,6 +19,8 @@ int largest_number(int a, int b, int c)
 	{
 		b *= -1;
 	}
+	while ((a > 0) && (b > 0) && (c > 0))
+	{
 			if (c < 0)
 			{
 				c *= -1;
@@ -37,3 +39,4 @@ int largest_number(int a, int b, int c)
 			}
 			return (largest);
 		}
+}
